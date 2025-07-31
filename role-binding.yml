@@ -7,6 +7,9 @@ subjects:
 - kind: User
   name: bhargav
   apiGroup: rbac.authorization.k8s.io
+- kind: User
+  name: hari
+  apiGroup: rbac.authorizaiton.k8s.io
 roleRef:
   kind: Role
   name: apache-manager
